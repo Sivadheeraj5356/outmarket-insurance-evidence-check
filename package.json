@@ -1,0 +1,19 @@
+{
+  "name": "outmarket-insurance-evidence-check",
+  "version": "1.0.0",
+  "description": "Citation and review checks for insurance document AI extraction workflows",
+  "private": false,
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js examples/policy-extraction.json"
+  },
+  "keywords": [
+    "insurance",
+    "document-ai",
+    "llm-evaluation",
+    "citations"
+  ],
+  "author": "Siva Dheeraj",
+  "license": "MIT"
+}
