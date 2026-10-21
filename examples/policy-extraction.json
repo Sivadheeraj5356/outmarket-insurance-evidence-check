@@ -1,0 +1,32 @@
+{
+  "documentType": "commercial policy",
+  "workflow": "policy review",
+  "fields": [
+    {
+      "name": "general liability limit",
+      "value": "$1,000,000",
+      "confidence": 0.94,
+      "reviewStatus": "auto_accept",
+      "citations": [
+        {
+          "sourceId": "synthetic-policy.pdf",
+          "page": 4,
+          "quote": "General Liability Each Occurrence Limit: $1,000,000"
+        }
+      ]
+    },
+    {
+      "name": "policy deductible",
+      "value": "$5,000",
+      "confidence": 0.91,
+      "reviewStatus": "auto_accept",
+      "citations": [
+        {
+          "sourceId": "synthetic-policy.pdf",
+          "page": 6,
+          "quote": "Deductible: $5,000 per occurrence"
+        }
+      ]
+    }
+  ]
+}
